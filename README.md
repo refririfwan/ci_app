@@ -1,7 +1,7 @@
 # ci_app
 Belajar Codeigniter.
 
-Membuat sistem login, registrasi dan verifikasi email.
+Membuat sistem login lengkap dengan registrasi dan verifikasi lewat email.
 
 Repository ini berisikan kode dasar dari sintak PHP yang dipelajari dari berbagai sumber pembelajaran.
 
