@@ -17,13 +17,21 @@ function is_logged_in()
             redirect('auth/blocked');
         }
     }
+}
 
-    function check_access($role_id, $menu_id)
-    {
-        $ci = get_instance();
-        $result = $ci->db->get_where('user_access_menu', ['role_id' => $role_id, 'menu_id' => $menu_id]);
-        if ($result->num_rows() > 0) {
-            return "checked='checked'";
-        }
+function check_access($role_id, $menu_id)
+{
+    $ci = get_instance();
+    $result = $ci->db->get_where('user_access_menu', ['role_id' => $role_id, 'menu_id' => $menu_id]);
+    if ($result->num_rows() > 0) {
+        return "checked='checked'";
+    }
+}
+
+function sudahLogin()
+{
+    $ci = get_instance();
+    if ($ci->session->userdata('email')) {
+        redirect('user');
     }
 }

@@ -11,6 +11,7 @@ Referensi pembelajaran web :
 3. https://getbootstrap.com/
 4. https://startbootstrap.com/themes/sb-admin-2/
 5. https://fontawesome.com/
+6. https://codeigniter.com/user_guide/libraries/file_uploading.html
 
 Referensi Video Pembelajaran dapat dilihat pada channel youtube refri rifwan pilih play list lalu Belajar CodeIgniter
 
